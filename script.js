@@ -10,11 +10,11 @@ const backgroundLayer2 = new Image();
 const backgroundLayer3 = new Image();
 const backgroundLayer4 = new Image();
 const backgroundLayer5 = new Image();
-backgroundLayer1.src = '../assets/backgroundLayers/layer-1.png';
-backgroundLayer2.src = '../assets/backgroundLayers/layer-2.png';
-backgroundLayer3.src = '../assets/backgroundLayers/layer-3.png';
-backgroundLayer4.src = '../assets/backgroundLayers/layer-4.png';
-backgroundLayer5.src = '../assets/backgroundLayers/layer-5.png';
+backgroundLayer1.src = './backgroundLayers/layer-1.png';
+backgroundLayer2.src = './backgroundLayers/layer-2.png';
+backgroundLayer3.src = './backgroundLayers/layer-3.png';
+backgroundLayer4.src = './backgroundLayers/layer-4.png';
+backgroundLayer5.src = './backgroundLayers/layer-5.png';
 
 window.addEventListener('load', function(param) {
     // resources loaded successfuly
